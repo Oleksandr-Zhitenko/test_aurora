@@ -3,11 +3,46 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dia</title>
+    <title>Aurora</title>
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <body>
-    <h1>Dia</h1>
+    <header class="header">
+      <section class="header__menu menu">
+        <div class="menu__actions">
+          <a class="menu__actions-toggle" href="#"></a>
+
+          <button type="button" class="menu__actions-search-btn">
+            <img
+              src="./images/search.png"
+              alt=""
+              class="menu__actions-search-btn-image"
+            >
+          </button>
+        </div>
+        <h1 class="menu__title">
+          Aurora
+        </h1>
+
+        <div class="menu__basket">
+          <button class="menu__basket-switcher">
+            <img
+              src="./images/basket.png"
+              alt=""
+              class="menu__basket-switcher-image"
+            >
+          </button>
+
+          <span class="menu__basket-value">
+            99
+          </span>
+        </div>
+      </section>
+
+    </header>
+    <nav class="header__nav nav">
+
+    </nav>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>

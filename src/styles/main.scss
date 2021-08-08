@@ -1,7 +1,14 @@
 @import "utils";
 @import "fonts";
 @import "typography";
+@import "./utils/reset";
+@import "./block/header";
+@import "./block/menu";
 
 body {
   background: $c-gray;
+}
+
+* {
+  box-sizing: border-box;
 }
